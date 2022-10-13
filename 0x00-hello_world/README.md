@@ -7,3 +7,5 @@
 3-name file: compiles a C file and creates an executable named cisfun
 
 4-puts.c file: C program that prints exactly "Programming is like building a multilingual puzzle
+
+5-printf.c file: C program that prints exactly with proper grammar, but the outcome is a piece of art,
