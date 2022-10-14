@@ -3,3 +3,5 @@
 1-last_digit.c file : print the last digit of the number stored in the variable n
 
 2-print_alphabet.c file: program that prints the alphabet in lowercase, followed by a new line.
+
+3-print_alphabets.c file: program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
