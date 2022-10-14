@@ -10,14 +10,14 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		printf("%c", ch);
+		putchar(ch);
 		ch++;
 	}
 	while (CH <= 'Z')
 	{
-		printf("%c", CH);
+		putchar(CH);
 		CH++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
