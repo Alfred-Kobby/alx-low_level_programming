@@ -11,3 +11,5 @@
 5-sign.c file: prints the sign of a number.
 
 6-abs.c file: computes the absolute value of an integer.
+
+7-print_last_digit.c file: prints the last digit of a number
