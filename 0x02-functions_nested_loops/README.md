@@ -25,3 +25,5 @@
 100-times_table.c file: prints the n times table, starting with 0.
 
 101-natural.c file: prints natural numbers
+
+102-fibonacci.c file: prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
