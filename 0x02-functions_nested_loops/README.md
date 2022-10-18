@@ -7,3 +7,5 @@
 3-islower.c file: checks for lowercase character.
 
 4-isalpha.c file: checks for alphabetic character.
+
+5-sign.c file: prints the sign of a number.
