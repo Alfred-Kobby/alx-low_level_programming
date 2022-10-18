@@ -1,10 +1,16 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  * Return: Always 1 (Success)
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char word[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < 9; i++)
+		_putchar(word[i]);
+	_putchar('\n');
 	return (0);
 }
