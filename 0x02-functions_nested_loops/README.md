@@ -27,3 +27,5 @@
 101-natural.c file: prints natural numbers
 
 102-fibonacci.c file: prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+103-fibonacci.c file: fibonacci sequence whose values do not exceed 4,000,000
