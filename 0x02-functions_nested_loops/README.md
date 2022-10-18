@@ -23,3 +23,5 @@
 11-print_to_98.c file:  prints all natural numbers from n to 98, followed by a new line.
 
 100-times_table.c file: prints the n times table, starting with 0.
+
+101-natural.c file: prints natural numbers
