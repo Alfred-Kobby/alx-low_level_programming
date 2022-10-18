@@ -3,3 +3,5 @@
 1-alphabet.c file: prints the alphabet, in lowercase, followed by a new line.
 
 2-print_alphabet_x10.c file: prints 10 times the alphabet, in lowercase, followed by a new line.
+
+3-islower.c file: checks for lowercase character.
