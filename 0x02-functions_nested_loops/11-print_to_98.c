@@ -3,6 +3,7 @@
 /**
  * print_to_98 - Check description
  * Description: printsn to 98
+ * @n: paramter for print_98
  * Return: nothing
  */
 void print_to_98(int n)
