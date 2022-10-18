@@ -18,13 +18,11 @@ int print_sign(int c)
 	{
 		sign = -1;
 		_putchar('-');
-		_putchar('1');
 	}
 	else
 	{
 		sign = 1;
 		_putchar('+');
-		_putchar('1');
 	}
 
 	return (sign);
