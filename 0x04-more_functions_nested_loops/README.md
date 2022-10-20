@@ -21,3 +21,5 @@
 10-print_triangle.c file: prints a triangle, followed by a new line.
 
 100-prime_factor.c file: The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081. 
+
+101-print_number.c file: prints an integer.
