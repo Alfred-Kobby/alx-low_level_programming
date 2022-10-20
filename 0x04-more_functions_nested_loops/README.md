@@ -17,3 +17,5 @@
 8-print_square.c file: prints a square, followed by a new line.
 
 9-fizz_buzz.c file: FizzBuzz interview
+
+10-print_triangle.c file: prints a triangle, followed by a new line.
