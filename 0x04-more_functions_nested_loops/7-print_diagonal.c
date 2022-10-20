@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - check description
+ * print_diagonal - check description
  * Description: prints a straignt line
  * @n: first input parameter for print_line
  * Return: nothing
