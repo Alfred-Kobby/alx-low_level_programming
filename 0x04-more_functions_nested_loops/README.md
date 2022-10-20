@@ -15,3 +15,5 @@
 7-print_diagonal.c file: draws a diagonal line on the terminal.
 
 8-print_square.c file: prints a square, followed by a new line.
+
+9-fizz_buzz.c file: FizzBuzz interview
