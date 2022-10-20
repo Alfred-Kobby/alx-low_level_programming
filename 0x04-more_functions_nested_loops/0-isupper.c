@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * _isupper: see description
+ * _isupper - check description
  * Description: return if its a upper case
  * @c: input parameter for _isupper
  * Return: return 1 or 0
