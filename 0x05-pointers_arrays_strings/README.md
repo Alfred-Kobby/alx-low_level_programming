@@ -11,3 +11,5 @@
 5-rev_string.c file: print string in reverse
 
 6-puts2.c file: prints any other string
+
+7-puts_half.c file: prints half of a screen
