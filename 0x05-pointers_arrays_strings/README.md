@@ -3,3 +3,5 @@
 1-swap.c file: swaps values for a and b
 
 2-strlen.c file: returns lenght of string
+
+3-puts.c file: prints message to screen
