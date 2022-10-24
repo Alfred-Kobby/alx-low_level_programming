@@ -14,4 +14,6 @@
 
 7-puts_half.c file: prints half of a screen
 
- 8-print_array.c file: prints n integers in an array
+8-print_array.c file: prints n integers in an array
+
+9-strcpy.c file: copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
