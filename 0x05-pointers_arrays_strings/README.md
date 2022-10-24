@@ -13,3 +13,5 @@
 6-puts2.c file: prints any other string
 
 7-puts_half.c file: prints half of a screen
+
+ 8-print_array.c file: prints n integers in an array
