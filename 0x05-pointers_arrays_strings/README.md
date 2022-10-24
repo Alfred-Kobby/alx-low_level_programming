@@ -7,3 +7,5 @@
 3-puts.c file: prints message to screen
 
 4-print_rev.c file: prints to stdout in reverse
+
+5-rev_string.c file: print string in reverse
