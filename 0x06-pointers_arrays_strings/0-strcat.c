@@ -6,7 +6,7 @@
  * @src: input parameter for src
  * Return: pointer of result
  */
-char * _strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i, j, z;
 	char *out;
