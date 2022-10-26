@@ -7,7 +7,7 @@
  * @n: input paramter for _strncat
  * Return: nothing
  */
-void _strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	char *out = dest;
 	int i = 0;
