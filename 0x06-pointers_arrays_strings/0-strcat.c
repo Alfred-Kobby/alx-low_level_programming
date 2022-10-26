@@ -4,9 +4,9 @@
  * Description: concat two strings
  * @dest: input parameter for _strcat function
  * @src: input parameter for src
- * Return: nothing
+ * Return: pointer of result
  */
-void _strcat(char *dest, char *src)
+char * _strcat(char *dest, char *src)
 {
 	int i, j, z;
 	char *out;
