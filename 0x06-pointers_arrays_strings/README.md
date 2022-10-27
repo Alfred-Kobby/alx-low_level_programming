@@ -7,3 +7,5 @@
 3-strcmp.c file: compares two string
 
 4-rev_array.c file: reverse the content of the array
+
+5-string_toupper.c file: converts string to upper case
