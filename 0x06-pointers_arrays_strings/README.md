@@ -9,3 +9,5 @@
 4-rev_array.c file: reverse the content of the array
 
 5-string_toupper.c file: converts string to upper case
+
+6-cap_string.c file: capitalize String
