@@ -11,3 +11,5 @@
 5-string_toupper.c file: converts string to upper case
 
 6-cap_string.c file: capitalize String
+
+7-leet.c file: encodes string
