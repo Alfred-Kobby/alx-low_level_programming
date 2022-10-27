@@ -13,3 +13,5 @@
 6-cap_string.c file: capitalize String
 
 7-leet.c file: encodes string
+
+100-rot13.c file: encode string with ROT 13`
