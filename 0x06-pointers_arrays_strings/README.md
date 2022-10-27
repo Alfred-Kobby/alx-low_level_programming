@@ -5,3 +5,5 @@
 2-strncpy.c file: copies second string into first string
 
 3-strcmp.c file: compares two string
+
+4-rev_array.c file: reverse the content of the array
