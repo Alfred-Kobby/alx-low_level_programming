@@ -15,3 +15,5 @@
 7-leet.c file: encodes string
 
 100-rot13.c file: encode string with ROT 13`
+
+101-print_number.c file: print integers
