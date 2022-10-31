@@ -9,3 +9,5 @@
 4-strpbrk.c file: searches a strinng for any set of byte
 
 5-strstr.c file: locates string
+
+7-print_chessboard.c file: prints the chess board
