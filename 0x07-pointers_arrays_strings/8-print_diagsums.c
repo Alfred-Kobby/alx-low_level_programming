@@ -8,18 +8,10 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int index, sum1 = 0, sum2 = 0;
-
-	for (index = 0; index < size; index++)
-	{
-		sum1 += a[index];
-		a += size;
-	}
-	a -= size;
-	for (index = 0; index < size; index++)
-	{
-		sum2 += a[index];
-		a -= size;
-	}
+	int i = 0, max = size * size, sum1 = 0, sum2 = 0;
+	for (; i < max; i += size + 1)
+		sum1 += a[i];
+	for (i = size - 1; i < max - 1; i += size - 1)
+		sum2 += a[i];
 	printf("%d, %d\n", sum1, sum2);
 }
