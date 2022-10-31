@@ -11,3 +11,5 @@
 5-strstr.c file: locates string
 
 7-print_chessboard.c file: prints the chess board
+
+8-print_diagsums.c file: print diagonal of a matrix
