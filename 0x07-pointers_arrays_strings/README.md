@@ -7,3 +7,5 @@
 3-strspn.c file: returns the length of a preifx substring
 
 4-strpbrk.c file: searches a strinng for any set of byte
+
+5-strstr.c file: locates string
