@@ -13,3 +13,5 @@
 6-is_prime_number.c file: checks if number is prime
 
 100-is_palindrome.c file: checks of a string is a palindrome
+
+101-wildcmp.c file: compares strings
