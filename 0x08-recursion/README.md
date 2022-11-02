@@ -5,3 +5,5 @@
 2-strlen_recursion.c file: calculates length of string
 
 3-factorial.c file: calculates the factorial of a given number
+
+4-pow_recursion.c file: calculates the power of x to y
