@@ -9,3 +9,5 @@
 4-pow_recursion.c file: calculates the power of x to y
 
 5-sqrt_recursion.c file: calculates the sqaure root of a number
+
+6-is_prime_number.c file: checks if number is prime
