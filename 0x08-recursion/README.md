@@ -11,3 +11,5 @@
 5-sqrt_recursion.c file: calculates the sqaure root of a number
 
 6-is_prime_number.c file: checks if number is prime
+
+100-is_palindrome.c file: checks of a string is a palindrome
