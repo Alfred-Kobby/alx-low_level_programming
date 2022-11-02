@@ -2,4 +2,6 @@
 
 1-print_rev_recursion.c file: prints string in reverse
 
-2-strlen_recursion.c file: calculates length of strin
+2-strlen_recursion.c file: calculates length of string
+
+3-factorial.c file: calculates the factorial of a given number
