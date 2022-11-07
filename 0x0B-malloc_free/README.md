@@ -7,3 +7,5 @@
 3-alloc_grid.c file: creates a 2 dimensional area
 
 4-free_grid.c file: clears space
+
+100-argstostr.c file: concatenates all paramters of the function
