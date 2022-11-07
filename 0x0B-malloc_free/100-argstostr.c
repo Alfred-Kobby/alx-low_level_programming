@@ -2,13 +2,12 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * argstostr - see description
- * Description: concatenates all the parameters of the function
- * @ac: input parameter for argstostr
- * @av: input parameter for argstostr
+ * strtow - see description
+ * Description: split strings to word
+ * @str: input parameter for strtow
  * Return: the pointer to the result
  */
-char *argstostr(int ac, char **av)
+char **strtow(char *str)
 {
 	char **array;
 	int i = 0, j, m, k = 0, len = 0, count = 0;
