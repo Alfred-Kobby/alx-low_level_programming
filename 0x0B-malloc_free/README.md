@@ -9,3 +9,5 @@
 4-free_grid.c file: clears space
 
 100-argstostr.c file: concatenates all paramters of the function
+
+101-strtow.c file: split string to words
