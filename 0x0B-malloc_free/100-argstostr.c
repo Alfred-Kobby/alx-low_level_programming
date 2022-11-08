@@ -1,6 +1,48 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+
+int word_len(char *str);
+int count_words(char *str);
+char **strtow(char *str);
+/**
+ * word_len - Locates the index marking the end of the
+ * first word contained within a string.
+ * @str: The string to be searched.
+ * Return: The index marking the end of the initial word pointed to by str.
+ */
+int word_len(char *str)
+{
+	int index = 0, len = 0;
+
+	while (*(str + index) && *(str + index) != ' ')
+	{
+		len++;
+		index++;
+	}
+	return (len);
+}
+/**
+ * count_words - Counts the number of words contained within a string.
+ * @str: The string to be searched.
+ * Return: The number of words contained within str.
+ */
+int count_words(char *str)
+{
+	int index = 0, words = 0, len = 0;
+
+	for (index = 0; *(str + index); index++)
+		len++;
+	for (index = 0; index < len; index++)
+	{
+		if (*(str + index) != ' ')
+		{
+			words++;
+			index += word_len(str + index);
+		}
+	}
+	return (words);
+}
 /**
  * argstostr - see description
  * Description: concatenates all arguements
@@ -10,32 +52,34 @@
  */
 char *argstostr(int ac, char **av)
 {
-	char *new_str;
-	int len = 0, i = 0, j, k = 0;
+	char **strings;
+	int index = 0, words, w, letters, l;
 
-	if (ac <= 0 || av == NULL)
+	if (str == NULL || str[0] == '\0')
 		return (NULL);
-
-	for (; i < ac; i++)
-	{
-		for (j = 0; av[i][j]; j++)
-			len++;
-		len++;
-	}
-	len++;
-	new_str = malloc(len * sizeof(char));
-	if (new_str == NULL)
+	words = count_words(str);
+	if (words == 0)
 		return (NULL);
-	for (i = 0; i < ac; i++)
+	strings = malloc(sizeof(char *) * (words + 1));
+	if (strings == NULL)
+		return (NULL);
+	for (w = 0; w < words; w++)
 	{
-		for (j = 0; av[i][j]; j++)
+		while (str[index] == ' ')
+			index++;
+		letters = word_len(str + index);
+		strings[w] = malloc(sizeof(char) * (letters + 1));
+		if (strings[w] == NULL)
 		{
-			new_str[k] = av[i][j];
-			k++;
+			for (; w >= 0; w--)
+				free(strings[w]);
+			free(strings);
+			return (NULL);
 		}
-		new_str[k] = '\n';
-		k++;
+		for (l = 0; l < letters; l++)
+			strings[w][l] = str[index++];
+		strings[w][l] = '\0';
 	}
-	new_str[k] = '\0';
-	return (new_str);
+	strings[w] = NULL;
+	return (strings);
 }
