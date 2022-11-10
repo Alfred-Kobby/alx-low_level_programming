@@ -5,3 +5,5 @@
 2-calloc.c file: allocates memory for an array
 
 3-array_range.c file: creates array of integers
+
+100-realloc.c file: reallocates memory
