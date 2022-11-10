@@ -7,3 +7,5 @@
 3-array_range.c file: creates array of integers
 
 100-realloc.c file: reallocates memory
+
+101-mul.c file: multiply 2 numbers
