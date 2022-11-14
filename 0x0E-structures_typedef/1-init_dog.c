@@ -1,4 +1,5 @@
-#include "main.h"
+#include "dog.h"
+#include <stdlib.h>
 /**
  * init_dog - see decription
  * Description: initialize struct dog
@@ -10,7 +11,6 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d = malloc(sizeof(struct dog));
 	if (d == NULL)
 		return;
 	d->name = name;
