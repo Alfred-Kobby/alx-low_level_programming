@@ -5,3 +5,5 @@
 2-main.c file: prints the name of the file it was compiled from, followed by a new line
 
 3-function_like_macro.h file: returns absoulte value of x
+
+4-sum.h file: computes the sum of x and y
