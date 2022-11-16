@@ -5,3 +5,5 @@
 2-int_index.c file: search for integer
 
 3-main.c file: performs operation
+
+100-main_opcodes.c file: performs opcode
