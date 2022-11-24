@@ -7,3 +7,5 @@
 3-add_node_end.c file: add node to end
 
 4-free_list.c file: free node
+
+100-first.c file: print some text
