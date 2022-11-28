@@ -15,3 +15,7 @@
 7-get_nodeint.c file: find index of nth node
 
 8-sum_listint.c file: sum all data in the linked list
+
+9-insert_nodeint.c file: insert node at a specific index
+
+10-delete_nodeint.c file: delete node at index
