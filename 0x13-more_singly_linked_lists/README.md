@@ -9,3 +9,5 @@
 4-free_listint.c file: free linked list
 
 5-free_listint2.c file: frees linked list
+
+6-pop_listint.c file: deltes head node of linked list
