@@ -11,3 +11,5 @@
 5-free_listint2.c file: frees linked list
 
 6-pop_listint.c file: deltes head node of linked list
+
+7-get_nodeint.c file: find index of nth node
