@@ -5,3 +5,5 @@
 2-add_nodeint.c file: adds node
 
 3-add_nodeint_end.c file: add node at end
+
+4-free_listint.c file: free linked list
