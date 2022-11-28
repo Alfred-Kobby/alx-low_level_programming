@@ -13,3 +13,5 @@
 6-pop_listint.c file: deltes head node of linked list
 
 7-get_nodeint.c file: find index of nth node
+
+8-sum_listint.c file: sum all data in the linked list
