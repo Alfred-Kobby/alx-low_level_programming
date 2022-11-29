@@ -25,3 +25,5 @@
 101-print_listint_safe.c file: print linked list safe
 
 102-free_listint_safe.c file: free linked list safe
+
+103-find_loop.c file: find loop in linked list
