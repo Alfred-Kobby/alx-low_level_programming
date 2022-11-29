@@ -19,3 +19,9 @@
 9-insert_nodeint.c file: insert node at a specific index
 
 10-delete_nodeint.c file: delete node at index
+
+100-reverse_listint.c file: reverse linked list
+
+101-print_listint_safe.c file: print linked list safe
+
+102-free_listint_safe.c file: free linked list safe
