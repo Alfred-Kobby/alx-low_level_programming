@@ -9,3 +9,5 @@
 4-clear_bit.c file: clear bit
 
 5-flip_bits.c file: flip bit
+
+100-get_endianness.c file: check the endianness
