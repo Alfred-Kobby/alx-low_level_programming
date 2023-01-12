@@ -18,3 +18,4 @@
 
 100-password file: Save the password in the file 100-password
 
+102-result file; The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
