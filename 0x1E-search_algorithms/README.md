@@ -9,3 +9,9 @@
 4-O
 
 5-O
+
+100-jump.c
+
+102-interpolation.c
+
+103-exponential.c
